@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: linear-gradient(to right, #44a08d, #093637);
+}
+
+.social > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: 3px solid #bfbdbd;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.social > ul > li{
+    list-style-type: none;
+}
+
+.social > ul > li > a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+.social > ul > li > a > i{
+    font-size: 40px;
+    color: #fff;
+}
+
+.social > ul > li > a > i:hover{
+    animation: vibe 0.3s;
+}
+
+.instagram{
+    margin: 0 2px;
+}
+
+.git{
+    background: #4078c0;
+}
+
+.insta{
+    background: #dc4c7c;
+}
+
+.face{
+    background: #1877F2;
+}
+
+.twitter{
+    background: #00acee;
+}
+
+.tele{
+    background: #0088cc;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 25px;
+    color: #dddddd;
+}
+
+.fa-heart{
+    color: rgb(238, 89, 89);
+}
+
+@keyframes vibe {
+    10%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+    70%{
+        transform: rotate(15deg);
+    }
+    100%{
+        transform: rotate(-15deg);
+    }
+}
